@@ -21,16 +21,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Intrinio API Stock Exchange Master
-  description: Returns stock exchange list and information for all stock exchanges
-    covered by Intrinio.
+- name: Intrinio API Exchange Prices
+  description: Returns professional-grade historical stock prices for all securities
+    traded on a stock exchange for a single specified day.  Historical prices are
+    available back to 1996 or the IPO date, with some companies with data back to
+    the 1970s.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Changes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/intrinio/stock-exchanges-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/intrinio/prices-exchange-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
