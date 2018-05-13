@@ -32,9 +32,9 @@ apis:
   tags: Changes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/me-drive-root-delta-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/drives-drive-id-root-delta-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/me-drive-root-delta-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/drives-drive-id-root-delta-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
