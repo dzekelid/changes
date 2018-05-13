@@ -31,17 +31,19 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Route 53 API Change Tags For Resource
-  description: Adds, edits, or deletes tags for a health check or a hosted zone.For
-    information about using tags for cost allocation, see Using Cost Allocation Tags
-    in the AWS Billing and Cost Management User Guide.
+- name: AWS Route 53 API Get Change
+  description: 'Returns the current status of a change batch request. The status is
+    one of thefollowing values:                  PENDING indicates that the changes
+    in this request have not replicatedto all Amazon Route 53 DNS servers. This is
+    the initial status of all change batchrequests.                  INSYNC indicates
+    that the changes have replicated to all Amazon Route 53 DNSservers.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Changes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-route-53/2013-04-01-tags-resourcetype-resourceid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-route-53/2013-04-01-change-id-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
