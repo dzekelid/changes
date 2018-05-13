@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Delete an Enrollment
-  description: Delete an Enrollment
+- name: Akamai API Get Change Status
+  description: Get Change Status
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Changes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/akamai/cps-v2-enrollments-enrollmentid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/akamai/cps-v2-enrollments-enrollmentid-changes-changeid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
