@@ -43,11 +43,11 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Futures List Exchanges
-  description: List commmodities future exchanges and indicates which ones are supported.
+- name: Xignite Global Historical List Exchanges
+  description: This operation returns exchanges information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
   tags: Changes
   properties:
   - type: x-openapi-spec
