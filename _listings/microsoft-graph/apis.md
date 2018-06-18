@@ -10,15 +10,15 @@ description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Mi
   insights from the Microsoft cloud (for commercial users).'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Changes
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Microsoft Graph API Track Changes For A Drive
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Track Changes For A Drive
+  x-api-slug: microsoft-graph
   description: Track changes for a Drive This method allows your app to track changes
     to a drive and its children over time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -30,8 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/medriverootdelta-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/medriverootdelta-get-openapi.md
-- name: Microsoft Graph API Track Changes For A Drive
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Track Changes For A Drive
+  x-api-slug: microsoft-graph
   description: Track changes for a Drive This method allows your app to track changes
     to a drive and its children over time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -43,8 +43,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/drivesdriveidrootdelta-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/drivesdriveidrootdelta-get-openapi.md
-- name: Microsoft Graph API Track Changes For A Drive
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Track Changes For A Drive
+  x-api-slug: microsoft-graph
   description: Track changes for a Drive This method allows your app to track changes
     to a drive and its children over time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -56,8 +56,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/groupsgroupiddriverootdelta-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/microsoft-graph/groupsgroupiddriverootdelta-get-openapi.md
-- name: Microsoft Graph API
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph
+  x-api-slug: microsoft-graph
   description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
     cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
     Graph simplifies queries that would otherwise be more complex. You can use Microsoft

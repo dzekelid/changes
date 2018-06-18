@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API Track Changes For A Drive
+  title: Microsoft Graph Track Changes For A Drive
   description: Track changes for a Drive This method allows your app to track changes
     to a drive and its children over time.
   version: 1.0.0
