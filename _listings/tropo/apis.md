@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.
 x-kinRank: "7"
 x-alexaRank: "641468"
 tags: Changes
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/tropo/apis.md
 specificationVersion: "0.14"
 apis:
