@@ -5,43 +5,35 @@ description: Geographical names are more than labels on maps and road signs. The
   can reveal patterns of settlement, exploration and migration, and mirror outside
   influences to our history - aspects of the heritage and promise of an area that
   might otherwise be overlooked or forgotten by visitors and later generations.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Changes
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/bc-geographical-names/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BC Geographical Names Search for names with metadata changes in a given period
-  x-api-slug: bc-geographical-names
+- name: BC Geographical Names - Search for names with metadata changes in a given
+    period
+  x-api-slug: nameschanges-get
   description: Search for information about geographical names which have changed
     most recently within a specified time window.  Changes may include status cupdates
     and metadata corrections.
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
   humanURL: https://apps.gov.bc.ca/pub/bcgnws/
-  baseURL: https://apps.gov.bc.ca//pub/bcgnws//names/changes
-  tags: Names,Changes
+  baseURL: https://apps.gov.bc.ca//pub/bcgnws
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/bc-geographical-names/nameschanges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/bc-geographical-names/nameschanges-get-openapi.md
-- name: BC Geographical Names
-  x-api-slug: bc-geographical-names
-  description: Geographical names are more than labels on maps and road signs. They
-    can reveal patterns of settlement, exploration and migration, and mirror outside
-    influences to our history - aspects of the heritage and promise of an area that
-    might otherwise be overlooked or forgotten by visitors and later generations.
-  image: ""
-  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
-  baseURL: https://apps.gov.bc.ca//pub/bcgnws
-  tags: Changes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/bc-geographical-names/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bbc.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bc.geographical.names.stack.network
 - type: x-website
   url: https://apps.gov.bc.ca/pub/bcgnws/
 include: []

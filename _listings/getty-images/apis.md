@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Changes
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Getty Images Get Asset Change Notifications
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Notifications
+  x-api-slug: v3assetchangeschangesets-put
   description: "# Asset Changes\r\n\r\nGet notifications about new, updated or deleted
     assets.\r\n\r\n##  Quickstart\r\n\r\nYou'll need an API key and a [Resource Owner
     Grant](http://developers.gettyimages.com/en/authorization-faq.html) access token
@@ -27,15 +27,17 @@ apis:
     set up again."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschangesets-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschangesets-put-openapi.md
-- name: Getty Images Get Asset Change Notification
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Notification
+  x-api-slug: v3assetchangeschangesetschangesetid-delete
   description: "# Delete Asset Changes\r\n\r\nConfirm asset changes acknowledges receipt
     of asset changes (from the PUT asset changes endpoint).\r\n\r\n##  Quickstart\r\n\r\nYou'll
     need an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
@@ -43,15 +45,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets/{change-set-id}
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschangesetschangesetid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschangesetschangesetid-delete-openapi.md
-- name: Getty Images Get Asset Change Channels
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Channels
+  x-api-slug: v3assetchangeschannels-get
   description: "# Get Partner Channels\r\n\r\nRetrieves the channel data for the partner.
     This data can be used to populate the channel_id parameter in the Put Asset Changes
     query.\r\n\r\n##  Quickstart\r\n\r\nYou'll need an API key and a [Resource Owner
@@ -63,26 +67,20 @@ apis:
     to be set up again."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/channels
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschannels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/v3assetchangeschannels-get-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: Find high resolution royalty-free images, editorial stock photos, vector
-    art, video footage clips and stock music licensing at the richest image search
-    photo library online.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com//
-  tags: Changes
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/getty-images/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://getstream.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://getty.images.stack.network
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
 - type: x-base
