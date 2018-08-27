@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Identity and Access Management
 x-complete: 1
@@ -108,4 +107,3 @@ paths:
           description: OK
       tags:
       - Signing Certificates
----

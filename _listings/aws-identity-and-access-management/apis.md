@@ -12,11 +12,62 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Changes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Identity and Access Management API - Change Password
+  x-api-slug: actionchangepassword-get
+  description: Changes the password of the IAM user who is calling this action.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-identity-and-access-management/actionchangepassword-get-openapi.md
+- name: AWS Identity and Access Management API - Update Access Key
+  x-api-slug: actionupdateaccesskey-get
+  description: Changes the status of the specified access key from Active to Inactive,
+    or vice versa.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-identity-and-access-management/actionupdateaccesskey-get-openapi.md
+- name: AWS Identity and Access Management API - Update Login Profile
+  x-api-slug: actionupdateloginprofile-get
+  description: Changes the password for the specified IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-identity-and-access-management/actionupdateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Update Signing Certificate
+  x-api-slug: actionupdatesigningcertificate-get
+  description: |-
+    Changes the status of the specified user signing certificate from active to disabled,
+          or vice versa.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/changes/master/_listings/aws-identity-and-access-management/actionupdatesigningcertificate-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io
